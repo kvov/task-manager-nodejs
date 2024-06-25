@@ -1,0 +1,26 @@
+[
+  {
+    "id": "75901702520920420",
+    "description": "Water flowers",
+    "responsible": "Mary",
+    "startDate": "2023-12-13T05:00:00.000Z",
+    "dueDate": "2023-12-14T05:00:00.000Z",
+    "priority": "High"
+  },
+  {
+    "id": "60171702514569007",
+    "description": "Clean house",
+    "responsible": "Tom",
+    "startDate": "2023-12-23T05:00:00.000Z",
+    "dueDate": "2024-12-24T05:00:00.000Z",
+    "priority": "Low"
+  },
+  {
+    "id": "87691702520386353",
+    "description": "Party",
+    "responsible": "Tom",
+    "startDate": "2023-12-15T05:00:00.000Z",
+    "dueDate": "2023-12-16T05:00:00.000Z",
+    "priority": "Medium"
+  }
+]

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        
+        <div class="container">
+            <h1>Task Manager</h1><br>
+            <div class="form">
+                <div >
+                    <input class="inputDesign" type="text" name="task" id="task" placeholder="Task">
+                </div>
+                <div>
+                    <input class="inputDesign" type="text" name="responsible" id="responsible" placeholder="Responsible">
+                </div>
+                <div>
+                    <input class="inputDesign" type="text" name="start_date" id="start_date" placeholder="Start Date">
+                </div>
+                <div>
+                    <input class="inputDesign" type="text" name="due_date" id="due_date" placeholder="Due Date">
+                </div>
+                <div class="button-container" >
+                    <input class="button" type="button" id="add_task" value="Add Task">
+                    <input class="button" type="button" id="clear_tasks" value="Clear Tasks">
+                </div>
+            </div>
+        </div>
+        <div>
+            <input class="inputDesign" type="text" id="search" placeholder="Search a task" />
+            <div id="tasks"></div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="scripts/lib_task.js"></script>
+    <script src="scripts/lib_task_list.js"></script>
+    <script src="scripts/task_list.js"></script>
+</body>
+
+</html>
